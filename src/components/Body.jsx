@@ -1,20 +1,40 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { restaurantList } from "../constants";
 import RestaurantCard from "./RestaurantCard";
 
-function filterData(searchText, restaurantList) {
-	return restaurantList.filter((restaurant) =>
-		restaurant?.card?.card?.info?.name
-			?.toLowerCase()
-			.includes(searchText.toLowerCase())
+function filterData(searchText, listOfRestaurants) {
+	return listOfRestaurants.filter((restaurant) =>
+		restaurant?.info?.name?.toLowerCase().includes(searchText.toLowerCase())
 	);
 }
 const Body = () => {
 	//searchInput is a local state variable
 	const [searchText, setSearchInput] = useState(""); //To create a state variable
 	const [toggleSwtich, setToggleSwitch] = useState("ON");
-	const [restaurants, setRestaurants] = useState(restaurantList);
+	// const [filteredRestaurants, setFilteredRestaurants] = useState(restaurantList);
+	const [filteredRestaurants, setFilteredRestaurants] = useState([]);
+	const [listOfRestaurants, setListOfRestaurants] = useState([]);
+
 	// useState() JS function returning array [variable, function to upate the state variable]
+
+	// empty dependency array -> it will be called just once after initial render
+	// state variable -> once after initial render + change in state
+	useEffect(() => {
+		getRestaurants();
+	}, []);
+
+	async function getRestaurants() {
+		const data = await fetch(
+			"https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.4956852&lng=77.4074461&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
+		);
+		const json = await data.json();
+		const restaurants =
+			json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
+				?.restaurants;
+		setListOfRestaurants(restaurants);
+		setFilteredRestaurants(restaurants);
+	}
+
 	return (
 		<>
 			{/* { <div className="restaurant-list">
@@ -31,17 +51,16 @@ const Body = () => {
 					value={searchText}
 					onChange={(e) => {
 						setSearchInput(e.target.value);
-						console.log(searchText);
 						if (!e.target.value.trim()) {
 							//bring the whole menu on searchClear
-							setRestaurants(restaurantList);
+							setFilteredRestaurants(listOfRestaurants);
 						}
 					}}
 					onKeyDown={(e) => {
 						if (e.key === "Enter") {
 							// handleSearch(); //can create to use at multiple places
-							const data = filterData(searchText, restaurantList);
-							setRestaurants(data);
+							const data = filterData(searchText, listOfRestaurants);
+							setFilteredRestaurants(data);
 						}
 					}}
 				/>
@@ -49,8 +68,8 @@ const Body = () => {
 					className="search-btn"
 					onClick={() => {
 						//need to filter data
-						const data = filterData(searchText, restaurantList);
-						setRestaurants(data);
+						const data = filterData(searchText, listOfRestaurants);
+						setFilteredRestaurants(data);
 					}}>
 					Search
 				</button>
@@ -77,8 +96,8 @@ const Body = () => {
             */}
 
 				{/* BEST WAY */}
-				{restaurants.map((restaurant) => {
-					const info = restaurant?.card?.card?.info;
+				{filteredRestaurants.map((restaurant) => {
+					const info = restaurant?.info;
 					return (
 						<RestaurantCard
 							key={info.id}
