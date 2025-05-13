@@ -8,7 +8,6 @@ export const Title = () => (
 	</a>
 );
 
-//Composing Components
 const Header = () => {
 	return (
 		<div className="header">
@@ -24,6 +23,4 @@ const Header = () => {
 		</div>
 	);
 };
-export default Header; //default exporting(but we can export default only one thing)
-
-//another way is to write 'export' keyword while declaring variable name(named import)
+export default Header;

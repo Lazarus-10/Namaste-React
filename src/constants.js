@@ -1,1500 +1,1919 @@
 export const restaurantList = [
     {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "879041",
-                    "name": "Grains N Greens",
-                    "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/3/f7c7bb01-6edb-4879-b60d-2e3ecb4ee80f_879041.jpg",
-                    "locality": "Sector 45",
-                    "areaName": "Golf Course",
-                    "costForTwo": "₹600 for two",
-                    "cuisines": [
-                        "Healthy Food"
-                    ],
-                    "avgRating": 4.6,
-                    "parentId": "391102",
-                    "avgRatingString": "4.6",
-                    "totalRatingsString": "328",
-                    "promoted": true,
-                    "adTrackingId": "cid=28959827~p=13~adgrpid=28959827#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=879041~plpr=COLLECTION~eid=81f2c3ae-7f9a-4975-a1ee-66771cea89b4~srvts=1746962227809~collid=83637",
-                    "sla": {
-                        "deliveryTime": 51,
-                        "lastMileTravel": 9.1,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "50-55 mins",
-                        "lastMileTravelString": "9.1 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2025-05-11 23:00:00",
-                        "opened": true
-                    },
-                    "badges": {
-                        "textExtendedBadges": [
+        "info": {
+            "id": "570254",
+            "name": "Burger Saif Khan",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/24/34d698b0-0f72-4a1d-8dfc-51d7247828f4_570254.jpg",
+            "locality": "sector 129",
+            "areaName": "sector 129",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+                "American"
+            ],
+            "avgRating": 4.3,
+            "parentId": "166",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "7.4K+",
+            "sla": {
+                "deliveryTime": 42,
+                "lastMileTravel": 4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "40-45 mins",
+                "lastMileTravelString": "4.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-05-14 02:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "Rxawards/_CATEGORY-Burger.png",
+                        "description": "Delivery!"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
                             {
-                                "iconId": "guiltfree/GF_Logo_android_3x",
-                                "shortDescription": "brand",
-                                "fontColor": "#7E808C"
+                                "attributes": {
+                                    "description": "Delivery!",
+                                    "imageId": "Rxawards/_CATEGORY-Burger.png"
+                                }
                             }
                         ]
                     },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "imageBased": {},
-                            "textExtendedBadges": {
-                                "badgeObject": [
-                                    {
-                                        "attributes": {
-                                            "description": "",
-                                            "shortDescription": "brand",
-                                            "fontColor": "#7E808C",
-                                            "iconId": "guiltfree/GF_Logo_android_3x"
-                                        }
-                                    }
-                                ]
+                    "textBased": {
+
+                    },
+                    "textExtendedBadges": {
+
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "60% OFF",
+                "subHeader": "UPTO ₹120"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {
+
+                    },
+                    "video": {
+
+                    }
+                }
+            },
+            "reviewsSummary": {
+
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c8a66d49-8e57-418d-973f-4db9b74f9bb2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/noida-1/burger-king-sector-129-rest570254",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "50668",
+            "name": "Saif Khan",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/046185dd-8245-4b96-89e3-edac2d6aa519_50668.JPG",
+            "locality": "Advant Navis Business Park",
+            "areaName": "Sector 142",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Burgers",
+                "Fast Food",
+                "Rolls & Wraps"
+            ],
+            "avgRating": 4.2,
+            "parentId": "547",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "8.8K+",
+            "sla": {
+                "deliveryTime": 40,
+                "lastMileTravel": 3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "40-45 mins",
+                "lastMileTravelString": "3.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-05-13 23:00:00",
+                "opened": true
+            },
+            "badges": {
+
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+
+                    },
+                    "textBased": {
+
+                    },
+                    "textExtendedBadges": {
+
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹59"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {
+
+                    },
+                    "video": {
+
+                    }
+                }
+            },
+            "reviewsSummary": {
+
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c8a66d49-8e57-418d-973f-4db9b74f9bb2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/noida-1/kfc-advant-navis-business-park-sector-142-rest50668",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "400158",
+            "name": "NIC Ice Saif Khan",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/22/4fe233ea-cf03-4a87-8856-a88cbf0b4c8c_400158.jpg",
+            "locality": "Ghari Shahdara",
+            "areaName": "Sector 135",
+            "costForTwo": "₹120 for two",
+            "cuisines": [
+                "Ice Cream",
+                "Desserts"
+            ],
+            "avgRating": 4.6,
+            "veg": true,
+            "parentId": "6249",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "1.9K+",
+            "sla": {
+                "deliveryTime": 29,
+                "lastMileTravel": 3.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "3.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-05-14 00:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "Ratnesh_Badges/Rx_Awards_2025/Icecream.png",
+                        "description": "Delivery!"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Delivery!",
+                                    "imageId": "Ratnesh_Badges/Rx_Awards_2025/Icecream.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {
+
+                    },
+                    "textExtendedBadges": {
+
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹148"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {
+
+                    },
+                    "video": {
+
+                    }
+                }
+            },
+            "reviewsSummary": {
+
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c8a66d49-8e57-418d-973f-4db9b74f9bb2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/noida-1/nic-ice-creams-ghari-shahdara-sector-135-rest400158",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "713709",
+            "name": "Saif Khan",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/9/84fc89eb-91cf-4418-9cd0-e3d69b63a51b_713709.jpg",
+            "locality": "SECTOR 135",
+            "areaName": "Gautam Buddha Nagar",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Desserts"
+            ],
+            "avgRating": 4.5,
+            "parentId": "1040",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "1.3K+",
+            "sla": {
+                "deliveryTime": 27,
+                "lastMileTravel": 1,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "1.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-05-14 00:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "bolt/big%20rx%20listing%2015%20mins%20.png",
+                        "description": "bolt!"
+                    },
+                    {
+                        "imageId": "Rxawards/_CATEGORY-Desserts.png",
+                        "description": "Delivery!"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "bolt!",
+                                    "imageId": "bolt/big%20rx%20listing%2015%20mins%20.png"
+                                }
                             },
-                            "textBased": {}
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "₹50 OFF",
-                        "subHeader": "ABOVE ₹499",
-                        "discountTag": "FLAT DEAL",
-                        "logoCtx": {
-                            "text": "BENEFITS"
-                        }
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {},
-                        "commsStyling": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {},
-                    "externalRatings": {
-                        "aggregatedRating": {
-                            "rating": "--"
-                        }
-                    },
-                    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                    "campaignId": "28959827"
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=879041&source=collection&query=Burger",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-            },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "774147",
-                    "name": "The Chocolate Room",
-                    "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/26/3135ca13-bd3d-407f-8fdc-8e47a6884d5e_fbdec7d5-8509-449e-aaf8-025263f4ee88.jpeg",
-                    "locality": "Sector 142",
-                    "areaName": "Sector 142",
-                    "costForTwo": "₹400 for two",
-                    "cuisines": [
-                        "Beverages",
-                        "Desserts",
-                        "Ice Cream",
-                        "Fast Food",
-                        "Snacks"
-                    ],
-                    "avgRating": 3.8,
-                    "veg": true,
-                    "parentId": "1002",
-                    "avgRatingString": "3.8",
-                    "totalRatingsString": "116",
-                    "sla": {
-                        "deliveryTime": 27,
-                        "lastMileTravel": 3,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "25-30 mins",
-                        "lastMileTravelString": "3.0 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2025-05-11 23:59:00",
-                        "opened": true
-                    },
-                    "badges": {},
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textExtendedBadges": {},
-                            "textBased": {},
-                            "imageBased": {}
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "40% OFF",
-                        "subHeader": "UPTO ₹80"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {},
-                        "commsStyling": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {},
-                    "externalRatings": {
-                        "aggregatedRating": {
-                            "rating": "4.6",
-                            "ratingCount": "839"
-                        },
-                        "source": "GOOGLE",
-                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-                    },
-                    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=774147&source=collection&query=Burger",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-            },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "650248",
-                    "name": "House Of Migo",
-                    "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2025/2/4/0a5ab181-9fb3-412b-a6af-dc2f76cb9c74_3fe2f6c5-beb9-435b-b77d-1ebf027156de.jpg",
-                    "locality": "Victory Road",
-                    "areaName": "Sector 135",
-                    "costForTwo": "₹800 for two",
-                    "cuisines": [
-                        "Italian",
-                        "pizza",
-                        "Burger",
-                        "Coffee",
-                        "Beverages",
-                        "Desserts",
-                        "Cafe"
-                    ],
-                    "avgRating": 4.3,
-                    "parentId": "391418",
-                    "avgRatingString": "4.3",
-                    "totalRatingsString": "383",
-                    "promoted": true,
-                    "adTrackingId": "cid=28489800~p=16~adgrpid=28489800#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=650248~plpr=COLLECTION~eid=e93c7f28-ef98-4284-81d5-f4fbd59f5e11~srvts=1746962227809~collid=83637",
-                    "sla": {
-                        "deliveryTime": 43,
-                        "lastMileTravel": 4.6,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "40-45 mins",
-                        "lastMileTravelString": "4.6 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2025-05-11 23:30:00",
-                        "opened": true
-                    },
-                    "badges": {
-                        "imageBadges": [
                             {
-                                "imageId": "newg.png",
-                                "description": "Gourmet"
+                                "attributes": {
+                                    "description": "Delivery!",
+                                    "imageId": "Rxawards/_CATEGORY-Desserts.png"
+                                }
                             }
                         ]
                     },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textExtendedBadges": {},
-                            "textBased": {},
-                            "imageBased": {
-                                "badgeObject": [
-                                    {
-                                        "attributes": {
-                                            "imageId": "newg.png",
-                                            "description": "Gourmet"
-                                        }
-                                    }
-                                ]
-                            }
-                        }
+                    "textBased": {
+
                     },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "30% OFF",
-                        "subHeader": "UPTO ₹75",
-                        "logoCtx": {
-                            "text": "BENEFITS"
-                        }
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {},
-                        "commsStyling": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {},
-                    "externalRatings": {
-                        "aggregatedRating": {
-                            "rating": "--"
-                        }
-                    },
-                    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                    "campaignId": "28489800"
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=650248&source=collection&query=Burger",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    "textExtendedBadges": {
+
+                    }
+                }
             },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
+            "aggregatedDiscountInfoV3": {
+                "header": "20% OFF",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {
+
+                    },
+                    "video": {
+
+                    }
+                }
+            },
+            "reviewsSummary": {
+
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c8a66d49-8e57-418d-973f-4db9b74f9bb2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/noida-1/theobroma-sector-135-gautam-buddha-nagar-rest713709",
+            "type": "WEBLINK"
         }
     },
     {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "884205",
-                    "name": "Wow! Chicken By Wow! Momo",
-                    "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/21/0afddda3-b5df-4ab6-a4b8-901bcd37202f_bded6a3a-e583-4c31-87b9-17e2f27f5b4a.png",
-                    "locality": "Sector 142",
-                    "areaName": "Advant",
-                    "costForTwo": "₹400 for two",
-                    "cuisines": [
-                        "Burger",
-                        "American",
-                        "fastfood"
-                    ],
-                    "avgRating": 4,
-                    "parentId": "268366",
-                    "avgRatingString": "4.0",
-                    "totalRatingsString": "102",
-                    "sla": {
-                        "deliveryTime": 32,
-                        "lastMileTravel": 3,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "30-35 mins",
-                        "lastMileTravelString": "3.0 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2025-05-12 01:00:00",
-                        "opened": true
-                    },
-                    "badges": {},
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textBased": {},
-                            "imageBased": {},
-                            "textExtendedBadges": {}
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹19"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {},
-                        "commsStyling": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {},
-                    "externalRatings": {
-                        "aggregatedRating": {
-                            "rating": "--"
-                        }
-                    },
-                    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=884205&source=collection&query=Burger",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+        "info": {
+            "id": "377798",
+            "name": "Pizza Saif Khan",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/9/42b5070d-89c3-4367-80c6-163157a7a1a6_377798.jpg",
+            "locality": "Noida World One",
+            "areaName": "Sector 83",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+                "Pizzas"
+            ],
+            "avgRating": 4.2,
+            "parentId": "721",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "4.0K+",
+            "sla": {
+                "deliveryTime": 53,
+                "lastMileTravel": 5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "50-55 mins",
+                "lastMileTravelString": "5.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
+            "availability": {
+                "nextCloseTime": "2025-05-14 03:00:00",
+                "opened": true
+            },
+            "badges": {
+
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+
+                    },
+                    "textBased": {
+
+                    },
+                    "textExtendedBadges": {
+
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹79"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {
+
+                    },
+                    "video": {
+
+                    }
+                }
+            },
+            "reviewsSummary": {
+
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c8a66d49-8e57-418d-973f-4db9b74f9bb2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/noida-1/pizza-hut-noida-world-one-sector-83-rest377798",
+            "type": "WEBLINK"
         }
     },
     {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "933921",
-                    "name": "Food Mohalla",
-                    "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/28/cd6fa455-a2de-4a78-8c36-b9df0e7bf21d_92e217d2-a4bc-4db7-a646-07a14d6c63c4.jpg",
-                    "locality": "SECTOR-135",
-                    "areaName": "GautamBudh Nagar ",
-                    "costForTwo": "₹200 for two",
-                    "cuisines": [
-                        "Fast Food",
-                        "Cafe"
-                    ],
-                    "avgRating": 4,
-                    "veg": true,
-                    "parentId": "81653",
-                    "avgRatingString": "4.0",
-                    "totalRatingsString": "42",
-                    "promoted": true,
-                    "adTrackingId": "cid=28907413~p=18~adgrpid=28907413#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=933921~plpr=COLLECTION~eid=8a2ba394-2fa9-44fa-8323-f7713b3d1427~srvts=1746962227809~collid=83637",
-                    "sla": {
-                        "deliveryTime": 35,
-                        "lastMileTravel": 1.3,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "30-35 mins",
-                        "lastMileTravelString": "1.3 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2025-05-11 22:45:00",
-                        "opened": true
-                    },
-                    "badges": {},
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textBased": {},
-                            "imageBased": {},
-                            "textExtendedBadges": {}
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "10% OFF",
-                        "subHeader": "UPTO ₹40",
-                        "logoCtx": {
-                            "text": "BENEFITS"
-                        }
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {},
-                        "commsStyling": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {},
-                    "externalRatings": {
-                        "aggregatedRating": {
-                            "rating": "--"
-                        }
-                    },
-                    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                    "campaignId": "28907413"
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=933921&source=collection&query=Burger",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+        "info": {
+            "id": "785074",
+            "name": "Saif Khan",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/7/3628e7b5-7dd5-4600-9129-6e74eadae0b1_785074.JPG",
+            "locality": "KALYAN KUNJ",
+            "areaName": "BAROLA",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "Continental",
+                "Chinese",
+                "Oriental",
+                "Asian",
+                "Healthy Food",
+                "Fast Food",
+                "Indian",
+                "Desserts"
+            ],
+            "avgRating": 4.2,
+            "parentId": "398",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "3.8K+",
+            "sla": {
+                "deliveryTime": 69,
+                "lastMileTravel": 10.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "65-70 mins",
+                "lastMileTravelString": "10.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
+            "availability": {
+                "nextCloseTime": "2025-05-13 23:59:00",
+                "opened": true
+            },
+            "badges": {
+
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+
+                    },
+                    "textBased": {
+
+                    },
+                    "textExtendedBadges": {
+
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹49"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {
+
+                    },
+                    "video": {
+
+                    }
+                }
+            },
+            "reviewsSummary": {
+
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c8a66d49-8e57-418d-973f-4db9b74f9bb2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/noida-1/freshmenu-kalyan-kunj-barola-rest785074",
+            "type": "WEBLINK"
         }
     },
     {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "421521",
-                    "name": "Indiana Burgers",
-                    "cloudinaryImageId": "rtrc8wcepbfj9obbrger",
-                    "locality": "Shahdra Road",
-                    "areaName": "Shahdara",
-                    "costForTwo": "₹150 for two",
-                    "cuisines": [
-                        "Burgers",
-                        "American",
-                        "Fast Food",
-                        "Beverages",
-                        "Desserts"
-                    ],
-                    "avgRating": 4.2,
-                    "parentId": "5714",
-                    "avgRatingString": "4.2",
-                    "totalRatingsString": "594",
-                    "sla": {
-                        "deliveryTime": 31,
-                        "lastMileTravel": 4.3,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "30-35 mins",
-                        "lastMileTravelString": "4.3 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2025-05-12 03:00:00",
-                        "opened": true
-                    },
-                    "badges": {
-                        "textExtendedBadges": [
+        "info": {
+            "id": "400159",
+            "name": "Grameen Saif Khan",
+            "cloudinaryImageId": "zx1gzp8u2pdhqijodosv",
+            "locality": "Ghari Shahdara",
+            "areaName": "Sector 141",
+            "costForTwo": "₹120 for two",
+            "cuisines": [
+                "Ice Cream",
+                "Desserts"
+            ],
+            "avgRating": 4.7,
+            "veg": true,
+            "parentId": "12175",
+            "avgRatingString": "4.7",
+            "totalRatingsString": "386",
+            "sla": {
+                "deliveryTime": 33,
+                "lastMileTravel": 3.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "3.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-05-14 00:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
                             {
-                                "iconId": "guiltfree/GF_Logo_android_3x",
-                                "shortDescription": "options available",
-                                "fontColor": "#7E808C"
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
                             }
                         ]
                     },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textBased": {},
-                            "imageBased": {},
-                            "textExtendedBadges": {
-                                "badgeObject": [
-                                    {
-                                        "attributes": {
-                                            "fontColor": "#7E808C",
-                                            "iconId": "guiltfree/GF_Logo_android_3x",
-                                            "description": "",
-                                            "shortDescription": "options available"
-                                        }
-                                    }
-                                ]
-                            }
-                        }
+                    "textBased": {
+
                     },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "66% OFF",
-                        "subHeader": "UPTO ₹126"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {},
-                        "commsStyling": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {},
-                    "externalRatings": {
-                        "aggregatedRating": {
-                            "rating": "--"
-                        }
-                    },
-                    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=421521&source=collection&query=Burger",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    "textExtendedBadges": {
+
+                    }
+                }
             },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹399",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {
+
+                    },
+                    "video": {
+
+                    }
+                }
+            },
+            "reviewsSummary": {
+
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c8a66d49-8e57-418d-973f-4db9b74f9bb2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/noida-1/grameen-kulfi-ghari-shahdara-sector-141-rest400159",
+            "type": "WEBLINK"
         }
     },
     {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "983378",
-                    "name": "KOKOY - Artisanal Kitchen",
-                    "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2024/12/2/20c9200b-8ac3-4a45-8d4b-d5d278b5c37d_fe5824bd-72e9-4a94-82a7-08233483b598.jpg",
-                    "locality": "Sector 144",
-                    "areaName": "Sector 144",
-                    "costForTwo": "₹800 for two",
-                    "cuisines": [
-                        "Italian",
-                        "Continental",
-                        "Pizza",
-                        "Pasta",
-                        "Coffee",
-                        "Burger",
-                        "Salads",
-                        "Beverages",
-                        "Desserts"
-                    ],
-                    "avgRating": 5,
-                    "parentId": "574921",
-                    "avgRatingString": "5.0",
-                    "totalRatingsString": "14",
-                    "promoted": true,
-                    "adTrackingId": "cid=28706538~p=19~adgrpid=28706538#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=983378~plpr=COLLECTION~eid=9ea119dc-ca3e-4ebe-b8f7-b19139703a8f~srvts=1746962227809~collid=83637",
-                    "sla": {
-                        "deliveryTime": 34,
-                        "lastMileTravel": 4.3,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "30-35 mins",
-                        "lastMileTravelString": "4.3 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2025-05-11 23:00:00",
-                        "opened": true
-                    },
-                    "badges": {},
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textExtendedBadges": {},
-                            "textBased": {},
-                            "imageBased": {}
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹169"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {},
-                        "commsStyling": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {},
-                    "externalRatings": {
-                        "aggregatedRating": {
-                            "rating": "4.5",
-                            "ratingCount": "427"
-                        },
-                        "source": "GOOGLE",
-                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-                    },
-                    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                    "campaignId": "28706538"
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=983378&source=collection&query=Burger",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+        "info": {
+            "id": "353956",
+            "name": "Saif Khan",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/8/34c29cf7-9fef-4629-9bd2-4ca48ed8f08c_353956.JPG",
+            "locality": "A Block",
+            "areaName": "Sector 83",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Bakery",
+                "Desserts",
+                "Beverages",
+                "Snacks"
+            ],
+            "avgRating": 4.5,
+            "parentId": "3818",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "8.1K+",
+            "sla": {
+                "deliveryTime": 50,
+                "lastMileTravel": 6.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "45-50 mins",
+                "lastMileTravelString": "6.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "326242",
-                    "name": "Burger House",
-                    "cloudinaryImageId": "frf93wgnl9wrxsenedb6",
-                    "locality": "Sector 135",
-                    "areaName": "Sector 135",
-                    "costForTwo": "₹200 for two",
-                    "cuisines": [
-                        "Burgers",
-                        "Snacks",
-                        "Pizzas"
-                    ],
-                    "avgRating": 4.1,
-                    "parentId": "4475",
-                    "avgRatingString": "4.1",
-                    "totalRatingsString": "412",
-                    "sla": {
-                        "deliveryTime": 24,
-                        "lastMileTravel": 4.1,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "20-25 mins",
-                        "lastMileTravelString": "4.1 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2025-05-11 23:59:00",
-                        "opened": true
-                    },
-                    "badges": {
-                        "textExtendedBadges": [
+            "availability": {
+                "nextCloseTime": "2025-05-14 01:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "Rxawards/_CATEGORY-Desserts.png",
+                        "description": "Delivery!"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
                             {
-                                "iconId": "guiltfree/GF_Logo_android_3x",
-                                "shortDescription": "options available",
-                                "fontColor": "#7E808C"
+                                "attributes": {
+                                    "description": "Delivery!",
+                                    "imageId": "Rxawards/_CATEGORY-Desserts.png"
+                                }
                             }
                         ]
                     },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textBased": {},
-                            "imageBased": {},
-                            "textExtendedBadges": {
-                                "badgeObject": [
-                                    {
-                                        "attributes": {
-                                            "shortDescription": "options available",
-                                            "fontColor": "#7E808C",
-                                            "iconId": "guiltfree/GF_Logo_android_3x",
-                                            "description": ""
-                                        }
-                                    }
-                                ]
-                            }
-                        }
+                    "textBased": {
+
                     },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹99",
-                        "logoCtx": {
-                            "text": "BENEFITS"
-                        },
-                        "footerText": "10 DEALS LEFT",
-                        "secondaryHeaderType": "SECONDARY_HEADER_TYPE_USAGE_LIMIT_OFFER"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {},
-                        "commsStyling": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {},
-                    "externalRatings": {
-                        "aggregatedRating": {
-                            "rating": "4.4",
-                            "ratingCount": "21"
-                        },
-                        "source": "GOOGLE",
-                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-                    },
-                    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=326242&source=collection&query=Burger",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    "textExtendedBadges": {
+
+                    }
+                }
             },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
+            "aggregatedDiscountInfoV3": {
+                "header": "₹200 OFF",
+                "subHeader": "ABOVE ₹999",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {
+
+                    },
+                    "video": {
+
+                    }
+                }
+            },
+            "reviewsSummary": {
+
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c8a66d49-8e57-418d-973f-4db9b74f9bb2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/noida-1/bakingo-a-block-sector-83-rest353956",
+            "type": "WEBLINK"
         }
     },
     {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "870277",
-                    "name": "SACO",
-                    "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/15/10311570-b6b3-4098-bcbe-b97ddad5fbd8_54fe85a6-00b7-439c-ac94-5e2b458e1189.jpg",
-                    "locality": "Amrapali Sapphire Arcade-II",
-                    "areaName": "Golf Course",
-                    "costForTwo": "₹199 for two",
-                    "cuisines": [
-                        "sandwich",
-                        "Street Food",
-                        "Waffle",
-                        "Burger",
-                        "Snacks",
-                        "Desserts",
-                        "Beverages"
-                    ],
-                    "avgRating": 4.5,
-                    "veg": true,
-                    "parentId": "510132",
-                    "avgRatingString": "4.5",
-                    "totalRatingsString": "77",
-                    "promoted": true,
-                    "adTrackingId": "cid=28871859~p=22~adgrpid=28871859#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=870277~plpr=COLLECTION~eid=f9bf3c90-e20b-4298-9dc3-5421f143724b~srvts=1746962227809~collid=83637",
-                    "sla": {
-                        "deliveryTime": 46,
-                        "lastMileTravel": 9.2,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "45-50 mins",
-                        "lastMileTravelString": "9.2 km",
-                        "iconType": "ICON_TYPE_EMPTY"
+        "info": {
+            "id": "554308",
+            "name": "Bikkgane Saif Khan",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/15/7a22f1d3-3df9-4dae-a1e6-53ff0fc90f2a_554308.jpg",
+            "locality": "Sector-135",
+            "areaName": "Noida Expressway",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+                "Biryani",
+                "Hyderabadi",
+                "Andhra",
+                "South Indian",
+                "North Indian",
+                "Mughlai",
+                "Kebabs"
+            ],
+            "avgRating": 4.4,
+            "parentId": "5070",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "4.3K+",
+            "sla": {
+                "deliveryTime": 29,
+                "lastMileTravel": 1.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "1.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-05-14 00:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "bolt/big%20rx%20listing%2015%20mins%20.png",
+                        "description": "bolt!"
                     },
-                    "availability": {
-                        "nextCloseTime": "2025-05-11 23:00:00",
-                        "opened": true
-                    },
-                    "badges": {
-                        "imageBadges": [
+                    {
+                        "imageId": "Rxawards/_CATEGORY-Biryani.png",
+                        "description": "Delivery!"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
                             {
-                                "imageId": "v1695133679/badges/Pure_Veg111.png",
-                                "description": "pureveg"
-                            }
-                        ]
-                    },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textBased": {},
-                            "imageBased": {
-                                "badgeObject": [
-                                    {
-                                        "attributes": {
-                                            "imageId": "v1695133679/badges/Pure_Veg111.png",
-                                            "description": "pureveg"
-                                        }
-                                    }
-                                ]
+                                "attributes": {
+                                    "description": "bolt!",
+                                    "imageId": "bolt/big%20rx%20listing%2015%20mins%20.png"
+                                }
                             },
-                            "textExtendedBadges": {}
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹189",
-                        "logoCtx": {
-                            "text": "BENEFITS"
-                        },
-                        "footerText": "10 DEALS LEFT",
-                        "secondaryHeaderType": "SECONDARY_HEADER_TYPE_USAGE_LIMIT_OFFER"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {},
-                        "commsStyling": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {},
-                    "externalRatings": {
-                        "aggregatedRating": {
-                            "rating": "--"
-                        }
-                    },
-                    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                    "campaignId": "28871859"
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=870277&source=collection&query=Burger",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-            },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "421542",
-                    "name": "Kouzina Kafe - The Food Court",
-                    "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/11/5bf1f881-e434-42dc-92be-629824519cb6_062f1a92-2d88-4384-b78f-d0c61126e112.jpg_compressed",
-                    "locality": "Shahdra Road",
-                    "areaName": "Shahdara",
-                    "costForTwo": "₹150 for two",
-                    "cuisines": [
-                        "Bakery",
-                        "Desserts",
-                        "Ice Cream",
-                        "Beverages",
-                        "Cakes",
-                        "Cafe"
-                    ],
-                    "avgRating": 4.6,
-                    "parentId": "249027",
-                    "avgRatingString": "4.6",
-                    "totalRatingsString": "41",
-                    "sla": {
-                        "deliveryTime": 23,
-                        "lastMileTravel": 4.3,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "20-25 mins",
-                        "lastMileTravelString": "4.3 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2025-05-12 03:00:00",
-                        "opened": true
-                    },
-                    "badges": {},
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textExtendedBadges": {},
-                            "textBased": {},
-                            "imageBased": {}
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "66% OFF",
-                        "subHeader": "UPTO ₹126"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {},
-                        "commsStyling": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {},
-                    "externalRatings": {
-                        "aggregatedRating": {
-                            "rating": "--"
-                        }
-                    },
-                    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=421542&source=collection&query=Burger",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-            },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "984921",
-                    "name": "Krazy Kebab Co.-Fried Chicken, Burgers & Meals",
-                    "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/26/f4cb91f1-8750-4a24-bca6-9523e9b931a9_eabff299-86d4-4772-bc1f-54f5b12c3f24.jpg",
-                    "locality": "Gautam Budh Nagar",
-                    "areaName": "Sector 50",
-                    "costForTwo": "₹300 for two",
-                    "cuisines": [
-                        "North Indian",
-                        "Fast Food"
-                    ],
-                    "avgRating": 4.2,
-                    "parentId": "618855",
-                    "avgRatingString": "4.2",
-                    "totalRatingsString": "125",
-                    "promoted": true,
-                    "adTrackingId": "cid=28730688~p=26~adgrpid=28730688#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=984921~plpr=COLLECTION~eid=27bdc696-8e42-4642-a691-034343e2e00c~srvts=1746962227809~collid=83637",
-                    "sla": {
-                        "deliveryTime": 62,
-                        "lastMileTravel": 13.7,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "60-65 mins",
-                        "lastMileTravelString": "13.7 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2025-05-12 00:00:00",
-                        "opened": true
-                    },
-                    "badges": {},
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textBased": {},
-                            "imageBased": {},
-                            "textExtendedBadges": {}
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹99",
-                        "logoCtx": {
-                            "text": "BENEFITS"
-                        }
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {},
-                        "commsStyling": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "isNewlyOnboarded": true,
-                    "restaurantOfferPresentationInfo": {},
-                    "externalRatings": {
-                        "aggregatedRating": {
-                            "rating": "--"
-                        }
-                    },
-                    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                    "campaignId": "28730688"
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=984921&source=collection&query=Burger",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-            },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "857598",
-                    "name": "Sunnyvale Super Burgers",
-                    "cloudinaryImageId": "5e5944dd150be6905c0edba2d71cef12",
-                    "locality": "Sector 141",
-                    "areaName": "Noida Expressway",
-                    "costForTwo": "₹300 for two",
-                    "cuisines": [
-                        "Burgers",
-                        "Cafe"
-                    ],
-                    "avgRating": 4.3,
-                    "parentId": "504021",
-                    "avgRatingString": "4.3",
-                    "totalRatingsString": "79",
-                    "sla": {
-                        "deliveryTime": 33,
-                        "lastMileTravel": 4.3,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "30-35 mins",
-                        "lastMileTravelString": "4.3 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2025-05-12 03:00:00",
-                        "opened": true
-                    },
-                    "badges": {},
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "imageBased": {},
-                            "textExtendedBadges": {},
-                            "textBased": {}
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "₹100 OFF",
-                        "subHeader": "ABOVE ₹249",
-                        "discountTag": "FLAT DEAL",
-                        "logoCtx": {
-                            "text": "BENEFITS"
-                        }
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {},
-                        "commsStyling": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {},
-                    "externalRatings": {
-                        "aggregatedRating": {
-                            "rating": "--"
-                        }
-                    },
-                    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=857598&source=collection&query=Burger",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
-            },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "111666",
-                    "name": "Burgrill - The Win Win Burger",
-                    "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/16/013bf01b-3761-46b2-be92-ebe79992ff9a_0cd20cb2-3467-4a10-8532-8b2cc748c70c.png_compressed",
-                    "locality": "Sector 45",
-                    "areaName": "Sector 45",
-                    "costForTwo": "₹250 for two",
-                    "cuisines": [
-                        "Burgers",
-                        "Healthy Food",
-                        "American",
-                        "Salads",
-                        "Beverages",
-                        "Desserts",
-                        "Snacks"
-                    ],
-                    "avgRating": 4.4,
-                    "parentId": "302366",
-                    "avgRatingString": "4.4",
-                    "totalRatingsString": "5.8K+",
-                    "promoted": true,
-                    "adTrackingId": "cid=28717618~p=27~adgrpid=28717618#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=111666~plpr=COLLECTION~eid=79e74443-3eb3-4603-942e-854b90327371~srvts=1746962227810~collid=83637",
-                    "sla": {
-                        "deliveryTime": 45,
-                        "lastMileTravel": 10.2,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "45-50 mins",
-                        "lastMileTravelString": "10.2 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2025-05-12 04:00:00",
-                        "opened": true
-                    },
-                    "badges": {
-                        "textExtendedBadges": [
                             {
-                                "iconId": "guiltfree/GF_Logo_android_3x",
-                                "shortDescription": "options available",
-                                "fontColor": "#7E808C"
+                                "attributes": {
+                                    "description": "Delivery!",
+                                    "imageId": "Rxawards/_CATEGORY-Biryani.png"
+                                }
                             }
                         ]
                     },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "textExtendedBadges": {
-                                "badgeObject": [
-                                    {
-                                        "attributes": {
-                                            "fontColor": "#7E808C",
-                                            "iconId": "guiltfree/GF_Logo_android_3x",
-                                            "description": "",
-                                            "shortDescription": "options available"
-                                        }
-                                    }
-                                ]
-                            },
-                            "textBased": {},
-                            "imageBased": {}
-                        }
+                    "textBased": {
+
                     },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "50% OFF",
-                        "discountTag": "FLAT DEAL",
-                        "logoCtx": {
-                            "text": "BENEFITS"
-                        }
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {},
-                        "commsStyling": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {},
-                    "externalRatings": {
-                        "aggregatedRating": {
-                            "rating": "4.4",
-                            "ratingCount": "91"
-                        },
-                        "source": "GOOGLE",
-                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-                    },
-                    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-                    "campaignId": "28717618"
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=111666&source=collection&query=Burger",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    "textExtendedBadges": {
+
+                    }
+                }
             },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
+            "aggregatedDiscountInfoV3": {
+                "header": "65% OFF",
+                "subHeader": "UPTO ₹125",
+                "headerTypeV2": 12
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {
+
+                    },
+                    "video": {
+
+                    }
+                }
+            },
+            "reviewsSummary": {
+
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c8a66d49-8e57-418d-973f-4db9b74f9bb2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/noida-1/bikkgane-biryani-sector-135-noida-expressway-rest554308",
+            "type": "WEBLINK"
         }
     },
     {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "720606",
-                    "name": "MovieMax",
-                    "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/3/aa45d5c3-4eb0-42fe-bffe-c8adbf81bccd_9593e222-e74f-4cff-981f-d25da15cca68.jpg",
-                    "locality": "Gautam Buddha Nagar",
-                    "areaName": "Noida Expressway",
-                    "costForTwo": "₹500 for two",
-                    "cuisines": [
-                        "Snacks",
-                        "Burgers",
-                        "Beverages",
-                        "Fast Food"
-                    ],
-                    "avgRating": 4.6,
-                    "parentId": "361478",
-                    "avgRatingString": "4.6",
-                    "totalRatingsString": "35",
-                    "sla": {
-                        "deliveryTime": 39,
-                        "lastMileTravel": 4,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "35-40 mins",
-                        "lastMileTravelString": "4.0 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseTime": "2025-05-11 23:00:00",
-                        "opened": true
-                    },
-                    "badges": {},
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "imageBased": {},
-                            "textExtendedBadges": {},
-                            "textBased": {}
-                        }
-                    },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "60% OFF",
-                        "subHeader": "UPTO ₹120",
-                        "logoCtx": {
-                            "text": "BENEFITS"
-                        }
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {},
-                        "commsStyling": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {},
-                    "externalRatings": {
-                        "aggregatedRating": {
-                            "rating": "4.5",
-                            "ratingCount": "2.1K+"
-                        },
-                        "source": "GOOGLE",
-                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-                    },
-                    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=720606&source=collection&query=Burger",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+        "info": {
+            "id": "203642",
+            "name": "The Good Saif Khan",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/15/5b8c40dc-2666-4f26-945a-715f22a6bf1f_203642.jpg",
+            "locality": "B Block",
+            "areaName": "Sector 83",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Biryani",
+                "Pastas",
+                "Punjabi",
+                "Desserts",
+                "Beverages"
+            ],
+            "avgRating": 4.5,
+            "parentId": "7918",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "2.6K+",
+            "sla": {
+                "deliveryTime": 47,
+                "lastMileTravel": 6.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "45-50 mins",
+                "lastMileTravelString": "6.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "788618",
-                    "name": "Seoul Fried Chicken",
-                    "cloudinaryImageId": "c588398df20807bfac67d282ebff017c",
-                    "locality": "Gautam Buddha Nagar",
-                    "areaName": "Noida Expressway",
-                    "costForTwo": "₹300 for two",
-                    "cuisines": [
-                        "American",
-                        "Fast Food",
-                        "Snacks",
-                        "Korean",
-                        "Burgers",
-                        "Beverages"
-                    ],
-                    "avgRating": 3.8,
-                    "parentId": "468084",
-                    "avgRatingString": "3.8",
-                    "totalRatingsString": "67",
-                    "sla": {
-                        "deliveryTime": 30,
-                        "lastMileTravel": 4.3,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "25-30 mins",
-                        "lastMileTravelString": "4.3 km",
-                        "iconType": "ICON_TYPE_EMPTY"
+            "availability": {
+                "nextCloseTime": "2025-05-13 23:59:00",
+                "opened": true
+            },
+            "badges": {
+                "textExtendedBadges": [
+                    {
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "options available",
+                        "fontColor": "#7E808C"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+
                     },
-                    "availability": {
-                        "nextCloseTime": "2025-05-12 03:00:00",
-                        "opened": true
+                    "textBased": {
+
                     },
-                    "badges": {
-                        "imageBadges": [
+                    "textExtendedBadges": {
+                        "badgeObject": [
                             {
-                                "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
-                                "description": "OnlyOnSwiggy"
+                                "attributes": {
+                                    "description": "",
+                                    "fontColor": "#7E808C",
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹200 OFF",
+                "subHeader": "ABOVE ₹699",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {
+
+                    },
+                    "video": {
+
+                    }
+                }
+            },
+            "reviewsSummary": {
+
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c8a66d49-8e57-418d-973f-4db9b74f9bb2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/noida-1/the-good-bowl-b-block-sector-83-rest203642",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "596007",
+            "name": "Big Saif Khan",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/22/deff0d02-ca1d-4ef9-9d62-b0cbeabf33d3_596007.JPG",
+            "locality": "Tulip Mall",
+            "areaName": "Sector 48",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "Chinese",
+                "Tibetan",
+                "Desserts"
+            ],
+            "avgRating": 4.4,
+            "parentId": "434792",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "987",
+            "sla": {
+                "deliveryTime": 70,
+                "lastMileTravel": 9.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "65-70 mins",
+                "lastMileTravelString": "9.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-05-14 00:00:00",
+                "opened": true
+            },
+            "badges": {
+
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+
+                    },
+                    "textBased": {
+
+                    },
+                    "textExtendedBadges": {
+
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹129"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {
+
+                    },
+                    "video": {
+
+                    }
+                }
+            },
+            "reviewsSummary": {
+
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c8a66d49-8e57-418d-973f-4db9b74f9bb2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/noida-1/big-bowl-tulip-mall-sector-48-rest596007",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "658903",
+            "name": "Mexican Burritos By Saif Khan",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/6/53e094a0-03e1-4ad9-a150-a3f1bafdee55_658903.jpg",
+            "locality": "Sector 141",
+            "areaName": "Noida 141",
+            "costForTwo": "₹500 for two",
+            "cuisines": [
+                "Mexican",
+                "Desserts",
+                "Beverages"
+            ],
+            "avgRating": 3.9,
+            "parentId": "550225",
+            "avgRatingString": "3.9",
+            "totalRatingsString": "87",
+            "sla": {
+                "deliveryTime": 51,
+                "lastMileTravel": 3.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "50-55 mins",
+                "lastMileTravelString": "3.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-05-14 03:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
+                                }
                             }
                         ]
                     },
-                    "isOpen": true,
-                    "type": "F",
-                    "badgesV2": {
-                        "entityBadges": {
-                            "imageBased": {
-                                "badgeObject": [
-                                    {
-                                        "attributes": {
-                                            "imageId": "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
-                                            "description": "OnlyOnSwiggy"
-                                        }
-                                    }
-                                ]
-                            },
-                            "textExtendedBadges": {},
-                            "textBased": {}
-                        }
+                    "textBased": {
+
                     },
-                    "aggregatedDiscountInfoV3": {
-                        "header": "66% OFF",
-                        "subHeader": "UPTO ₹126"
-                    },
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {},
-                        "commsStyling": {}
-                    },
-                    "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": {},
-                            "video": {}
-                        }
-                    },
-                    "reviewsSummary": {},
-                    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                    "restaurantOfferPresentationInfo": {},
-                    "externalRatings": {
-                        "aggregatedRating": {
-                            "rating": "--"
-                        }
-                    },
-                    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                },
-                "analytics": {},
-                "cta": {
-                    "link": "swiggy://menu?restaurant_id=788618&source=collection&query=Burger",
-                    "text": "RESTAURANT_MENU",
-                    "type": "DEEPLINK"
-                },
-                "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    "textExtendedBadges": {
+
+                    }
+                }
             },
-            "relevance": {
-                "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-                "sectionId": "MENU_RETURN_FOOD"
-            }
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹249"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {
+
+                    },
+                    "video": {
+
+                    }
+                }
+            },
+            "reviewsSummary": {
+
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c8a66d49-8e57-418d-973f-4db9b74f9bb2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/noida-1/mexican-burritos-by-nomad-sector-141-noida-141-rest658903",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "214227",
+            "name": "Saif Khan",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/21/f53cba0e-a56d-4a2c-8577-65992724ec1d_214227.JPG",
+            "locality": "Assotech Business Cressterra",
+            "areaName": "Sector 135",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+                "sandwich",
+                "Salads",
+                "wrap",
+                "Healthy Food"
+            ],
+            "avgRating": 4.3,
+            "parentId": "2",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "5.1K+",
+            "sla": {
+                "deliveryTime": 32,
+                "lastMileTravel": 1.3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "1.3 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-05-14 05:29:00",
+                "opened": true
+            },
+            "badges": {
+
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+
+                    },
+                    "textBased": {
+
+                    },
+                    "textExtendedBadges": {
+
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹119"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {
+
+                    },
+                    "video": {
+
+                    }
+                }
+            },
+            "reviewsSummary": {
+
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c8a66d49-8e57-418d-973f-4db9b74f9bb2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/noida-1/subway-assotech-business-cressterra-sector-135-rest214227",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "142009",
+            "name": "Burger Singh(Big Punjabi BurgersSaif Khan",
+            "cloudinaryImageId": "972a37599772cdc7df93a0855ad87591",
+            "locality": "Ajnara Daffodil",
+            "areaName": "Sector 135",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Snacks",
+                "Fast Food",
+                "Indian",
+                "American",
+                "Beverages",
+                "Desserts",
+                "Mughlai",
+                "North Indian",
+                "Biryani"
+            ],
+            "avgRating": 4.4,
+            "parentId": "375065",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "10K+",
+            "sla": {
+                "deliveryTime": 36,
+                "lastMileTravel": 4.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "35-40 mins",
+                "lastMileTravelString": "4.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-05-14 05:29:00",
+                "opened": true
+            },
+            "badges": {
+
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+
+                    },
+                    "textBased": {
+
+                    },
+                    "textExtendedBadges": {
+
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹150 OFF",
+                "subHeader": "ABOVE ₹299",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {
+
+                    },
+                    "video": {
+
+                    }
+                }
+            },
+            "reviewsSummary": {
+
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c8a66d49-8e57-418d-973f-4db9b74f9bb2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/noida-1/burger-singh-big-punjabi-burgers-ajnara-daffodil-sector-135-rest142009",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "203628",
+            "name": "Oven Story Pizza - Standout Saif Khan",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/20/7ca6fb3b-b04f-44dd-80f1-800884185c50_203628.jpg",
+            "locality": "B Block",
+            "areaName": "Sector 83",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Pizzas",
+                "Pastas",
+                "Italian",
+                "Desserts",
+                "Beverages"
+            ],
+            "avgRating": 4.5,
+            "parentId": "3534",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "4.4K+",
+            "sla": {
+                "deliveryTime": 22,
+                "lastMileTravel": 6.2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "6.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-05-13 23:59:00",
+                "opened": true
+            },
+            "badges": {
+
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+
+                    },
+                    "textBased": {
+
+                    },
+                    "textExtendedBadges": {
+
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹399"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {
+
+                    },
+                    "video": {
+
+                    }
+                }
+            },
+            "reviewsSummary": {
+
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c8a66d49-8e57-418d-973f-4db9b74f9bb2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/noida-1/oven-story-pizza-standout-toppings-b-block-sector-83-rest203628",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "393647",
+            "name": "Tossin Saif Khan",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/3/29/1690f8a0-62e6-4b66-8659-8cb1d2c6cc51_393647.jpg",
+            "locality": "Sector 142",
+            "areaName": "Sector 142",
+            "costForTwo": "₹600 for two",
+            "cuisines": [
+                "Italian",
+                "Pizzas"
+            ],
+            "avgRating": 4.4,
+            "parentId": "1778",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "2.6K+",
+            "sla": {
+                "deliveryTime": 30,
+                "lastMileTravel": 4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-35 mins",
+                "lastMileTravelString": "4.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-05-14 05:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "newg.png",
+                        "description": "Gourmet"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "Gourmet",
+                                    "imageId": "newg.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {
+
+                    },
+                    "textExtendedBadges": {
+
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "50% OFF",
+                "subHeader": "UPTO ₹100"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {
+
+                    },
+                    "video": {
+
+                    }
+                }
+            },
+            "reviewsSummary": {
+
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "4.6",
+                    "ratingCount": "205"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c8a66d49-8e57-418d-973f-4db9b74f9bb2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/noida-1/tossin-pizza-sector-142-rest393647",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "580610",
+            "name": "GetAWay-Ice Creams & Saif Khan",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/12/d90a0c99-0593-4717-919b-024ebe578ac1_580610 (2).jpg",
+            "locality": "Assotech Business Cresterra",
+            "areaName": "Sector 135",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Ice Cream",
+                "Desserts",
+                "Healthy Food"
+            ],
+            "avgRating": 4.4,
+            "veg": true,
+            "parentId": "354819",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "117",
+            "sla": {
+                "deliveryTime": 31,
+                "lastMileTravel": 1.3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "1.3 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-05-14 00:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "bolt/big%20rx%20listing%2015%20mins%20.png",
+                        "description": "bolt!"
+                    }
+                ],
+                "textExtendedBadges": [
+                    {
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "brand",
+                        "fontColor": "#7E808C"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "bolt!",
+                                    "imageId": "bolt/big%20rx%20listing%2015%20mins%20.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {
+
+                    },
+                    "textExtendedBadges": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "",
+                                    "fontColor": "#7E808C",
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "brand"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "65% OFF",
+                "subHeader": "UPTO ₹125",
+                "headerTypeV2": 12
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {
+
+                    },
+                    "video": {
+
+                    }
+                }
+            },
+            "reviewsSummary": {
+
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c8a66d49-8e57-418d-973f-4db9b74f9bb2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/noida-1/getaway-ice-creams-and-desserts-assotech-business-cresterra-sector-135-rest580610",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "554325",
+            "name": "Biryani Saif Khan",
+            "cloudinaryImageId": "smkjtesrgdt75coubugu",
+            "locality": "Sector-135",
+            "areaName": "Noida Expressway",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+                "Biryani",
+                "Hyderabadi",
+                "Andhra",
+                "South Indian",
+                "North Indian",
+                "Mughlai",
+                "Kebabs"
+            ],
+            "avgRating": 4.4,
+            "parentId": "10703",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "1.3K+",
+            "sla": {
+                "deliveryTime": 29,
+                "lastMileTravel": 1.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "1.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-05-14 00:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "bolt/big%20rx%20listing%2015%20mins%20.png",
+                        "description": "bolt!"
+                    }
+                ],
+                "textExtendedBadges": [
+                    {
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "shortDescription": "options available",
+                        "fontColor": "#7E808C"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "bolt!",
+                                    "imageId": "bolt/big%20rx%20listing%2015%20mins%20.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {
+
+                    },
+                    "textExtendedBadges": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "",
+                                    "fontColor": "#7E808C",
+                                    "iconId": "guiltfree/GF_Logo_android_3x",
+                                    "shortDescription": "options available"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "65% OFF",
+                "subHeader": "UPTO ₹125",
+                "headerTypeV2": 12
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {
+
+                    },
+                    "video": {
+
+                    }
+                }
+            },
+            "reviewsSummary": {
+
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c8a66d49-8e57-418d-973f-4db9b74f9bb2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/noida-1/biryani-badshah-sector-135-noida-expressway-rest554325",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "762328",
+            "name": "Yummo Ice Saif Khan",
+            "cloudinaryImageId": "8a89cc36168fb9974b37aaf5a5f6be2e",
+            "locality": "Ghari Shahdara",
+            "areaName": "Sector 135",
+            "costForTwo": "₹120 for two",
+            "cuisines": [
+                "Ice Cream",
+                "Desserts"
+            ],
+            "avgRating": 4.4,
+            "veg": true,
+            "parentId": "449734",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "39",
+            "sla": {
+                "deliveryTime": 34,
+                "lastMileTravel": 3.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "3.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-05-14 00:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {
+
+                    },
+                    "textExtendedBadges": {
+
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹200 OFF",
+                "subHeader": "ABOVE ₹499",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {
+
+                    },
+                    "video": {
+
+                    }
+                }
+            },
+            "reviewsSummary": {
+
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c8a66d49-8e57-418d-973f-4db9b74f9bb2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/noida-1/yummo-ice-creams-ghari-shahdara-sector-135-rest762328",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "323600",
+            "name": "Dana Saif Khan",
+            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/10/c781f9cc-ef21-47f6-8d13-0aabbb7429ac_323600.jpg",
+            "locality": "Golf Course",
+            "areaName": "Sector 41",
+            "costForTwo": "₹500 for two",
+            "cuisines": [
+                "North Indian",
+                "Indian",
+                "Mughlai",
+                "Chinese",
+                "Biryani",
+                "Beverages",
+                "Desserts"
+            ],
+            "avgRating": 4.6,
+            "parentId": "5179",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "8.5K+",
+            "sla": {
+                "deliveryTime": 55,
+                "lastMileTravel": 10.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "55-60 mins",
+                "lastMileTravelString": "10.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2025-05-14 00:30:00",
+                "opened": true
+            },
+            "badges": {
+
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+
+                    },
+                    "textBased": {
+
+                    },
+                    "textExtendedBadges": {
+
+                    }
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "50% OFF",
+                "discountTag": "FLAT DEAL"
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "lottie": {
+
+                    },
+                    "video": {
+
+                    }
+                }
+            },
+            "reviewsSummary": {
+
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+
+            },
+            "externalRatings": {
+                "aggregatedRating": {
+                    "rating": "--"
+                }
+            },
+            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+        },
+        "analytics": {
+            "context": "seo-data-c8a66d49-8e57-418d-973f-4db9b74f9bb2"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/city/noida-1/dana-choga-golf-course-sector-41-rest323600",
+            "type": "WEBLINK"
         }
     }
 ]
 
 export const IMG_CDN_BASE_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
+
+export const RESTAURANT_API_URL = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.2856374&lng=72.8691092&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
