@@ -1,50 +1,102 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
-    padding-left: 10px;
-    border: 1px solid grey;
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+	padding-left: 10px;
+	border: 1px solid grey;
 }
 
 .nav-items > ul {
-    list-style: none;
-    display: flex;
+	list-style: none;
+	display: flex;
 }
 
-.nav-items > ul > li{
-    padding: 10px;
+.nav-items > ul > li {
+	padding: 10px;
 }
 
-.logo{
-    width: 80px;
+.nav-items a {
+	text-decoration: none;
+	color: inherit;
+  margin-right: 1.5rem;
+}
+.logo {
+	width: 80px;
 }
 
 .card {
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid grey;
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid grey;
 }
-
 
 .card * {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
 }
-
 
 .card > img {
-    width: 100%;
-    height: 150px;          /* fixed height for uniformity */
-    object-fit: cover;      /* crop to fit while preserving aspect ratio */
-    border-radius: 5px;
+	width: 100%;
+	height: 150px; /* fixed height for uniformity */
+	object-fit: cover; /* crop to fit while preserving aspect ratio */
+	border-radius: 5px;
 }
 
+.restaurant-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2.2rem;
+	justify-content: flex-start;
+}
 
-.restaurant-list{
-    display: flex;
-    flex-wrap: wrap;
+.shimmer-card {
+	width: 200px;
+	height: 350px;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.shimmer-img {
+	width: 100%;
+	height: 150px;
+	background: #ddd;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.shimmer-line {
+	height: 12px;
+	background: #ddd;
+	margin: 6px 0;
+	border-radius: 4px;
+}
+
+.shimmer-line.short {
+	width: 60%;
+	margin-bottom: 20px;
+}
+
+/* Shimmer animation */
+@keyframes shimmer {
+	0% {
+		background-position: 200% 0;
+	}
+	100% {
+		background-position: -200% 0;
+	}
+}
+
+/* Apply animated shimmer background */
+.shimmer-img,
+.shimmer-line {
+	background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+	background-size: 200% 100%;
+	animation: shimmer 3s infinite linear;
 }

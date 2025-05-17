@@ -2,7 +2,7 @@ export const restaurantList = [
     {
         "info": {
             "id": "570254",
-            "name": "Burger Saif Khan",
+            "name": "Burger King",
             "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/24/34d698b0-0f72-4a1d-8dfc-51d7247828f4_570254.jpg",
             "locality": "sector 129",
             "areaName": "sector 129",
@@ -96,7 +96,7 @@ export const restaurantList = [
     {
         "info": {
             "id": "50668",
-            "name": "Saif Khan",
+            "name": "KFC",
             "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/046185dd-8245-4b96-89e3-edac2d6aa519_50668.JPG",
             "locality": "Advant Navis Business Park",
             "areaName": "Sector 142",
@@ -180,7 +180,7 @@ export const restaurantList = [
     {
         "info": {
             "id": "400158",
-            "name": "NIC Ice Saif Khan",
+            "name": "NIC Ice Creams",
             "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/22/4fe233ea-cf03-4a87-8856-a88cbf0b4c8c_400158.jpg",
             "locality": "Ghari Shahdara",
             "areaName": "Sector 135",
@@ -276,7 +276,7 @@ export const restaurantList = [
     {
         "info": {
             "id": "713709",
-            "name": "Saif Khan",
+            "name": "Theobroma",
             "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/9/84fc89eb-91cf-4418-9cd0-e3d69b63a51b_713709.jpg",
             "locality": "SECTOR 135",
             "areaName": "Gautam Buddha Nagar",
@@ -380,7 +380,7 @@ export const restaurantList = [
     {
         "info": {
             "id": "377798",
-            "name": "Pizza Saif Khan",
+            "name": "Pizza Hut",
             "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/9/42b5070d-89c3-4367-80c6-163157a7a1a6_377798.jpg",
             "locality": "Noida World One",
             "areaName": "Sector 83",
@@ -462,7 +462,7 @@ export const restaurantList = [
     {
         "info": {
             "id": "785074",
-            "name": "Saif Khan",
+            "name": "FreshMenu",
             "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/7/3628e7b5-7dd5-4600-9129-6e74eadae0b1_785074.JPG",
             "locality": "KALYAN KUNJ",
             "areaName": "BAROLA",
@@ -551,7 +551,7 @@ export const restaurantList = [
     {
         "info": {
             "id": "400159",
-            "name": "Grameen Saif Khan",
+            "name": "Grameen Kulfi",
             "cloudinaryImageId": "zx1gzp8u2pdhqijodosv",
             "locality": "Ghari Shahdara",
             "areaName": "Sector 141",
@@ -648,7 +648,7 @@ export const restaurantList = [
     {
         "info": {
             "id": "353956",
-            "name": "Saif Khan",
+            "name": "Bakingo",
             "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/8/34c29cf7-9fef-4629-9bd2-4ca48ed8f08c_353956.JPG",
             "locality": "A Block",
             "areaName": "Sector 83",
@@ -746,7 +746,7 @@ export const restaurantList = [
     {
         "info": {
             "id": "554308",
-            "name": "Bikkgane Saif Khan",
+            "name": "Bikkgane Biryani",
             "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/15/7a22f1d3-3df9-4dae-a1e6-53ff0fc90f2a_554308.jpg",
             "locality": "Sector-135",
             "areaName": "Noida Expressway",
@@ -857,7 +857,7 @@ export const restaurantList = [
     {
         "info": {
             "id": "203642",
-            "name": "The Good Saif Khan",
+            "name": "The Good Bowl",
             "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/15/5b8c40dc-2666-4f26-945a-715f22a6bf1f_203642.jpg",
             "locality": "B Block",
             "areaName": "Sector 83",
@@ -959,7 +959,7 @@ export const restaurantList = [
     {
         "info": {
             "id": "596007",
-            "name": "Big Saif Khan",
+            "name": "Big Bowl",
             "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/22/deff0d02-ca1d-4ef9-9d62-b0cbeabf33d3_596007.JPG",
             "locality": "Tulip Mall",
             "areaName": "Sector 48",
@@ -1043,7 +1043,7 @@ export const restaurantList = [
     {
         "info": {
             "id": "658903",
-            "name": "Mexican Burritos By Saif Khan",
+            "name": "Mexican Burritos By Nomad",
             "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/6/53e094a0-03e1-4ad9-a150-a3f1bafdee55_658903.jpg",
             "locality": "Sector 141",
             "areaName": "Noida 141",
@@ -1139,7 +1139,7 @@ export const restaurantList = [
     {
         "info": {
             "id": "214227",
-            "name": "Saif Khan",
+            "name": "Subway",
             "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/21/f53cba0e-a56d-4a2c-8577-65992724ec1d_214227.JPG",
             "locality": "Assotech Business Cressterra",
             "areaName": "Sector 135",
@@ -1224,7 +1224,7 @@ export const restaurantList = [
     {
         "info": {
             "id": "142009",
-            "name": "Burger Singh(Big Punjabi BurgersSaif Khan",
+            "name": "Burger Singh(Big Punjabi Burgers)",
             "cloudinaryImageId": "972a37599772cdc7df93a0855ad87591",
             "locality": "Ajnara Daffodil",
             "areaName": "Sector 135",
@@ -1315,7 +1315,7 @@ export const restaurantList = [
     {
         "info": {
             "id": "203628",
-            "name": "Oven Story Pizza - Standout Saif Khan",
+            "name": "Oven Story Pizza - Standout Toppings",
             "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/20/7ca6fb3b-b04f-44dd-80f1-800884185c50_203628.jpg",
             "locality": "B Block",
             "areaName": "Sector 83",
@@ -1401,7 +1401,7 @@ export const restaurantList = [
     {
         "info": {
             "id": "393647",
-            "name": "Tossin Saif Khan",
+            "name": "Tossin Pizza",
             "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/3/29/1690f8a0-62e6-4b66-8659-8cb1d2c6cc51_393647.jpg",
             "locality": "Sector 142",
             "areaName": "Sector 142",
@@ -1499,7 +1499,7 @@ export const restaurantList = [
     {
         "info": {
             "id": "580610",
-            "name": "GetAWay-Ice Creams & Saif Khan",
+            "name": "GetAWay-Ice Creams & Desserts",
             "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/12/d90a0c99-0593-4717-919b-024ebe578ac1_580610 (2).jpg",
             "locality": "Assotech Business Cresterra",
             "areaName": "Sector 135",
@@ -1613,7 +1613,7 @@ export const restaurantList = [
     {
         "info": {
             "id": "554325",
-            "name": "Biryani Saif Khan",
+            "name": "Biryani Badshah",
             "cloudinaryImageId": "smkjtesrgdt75coubugu",
             "locality": "Sector-135",
             "areaName": "Noida Expressway",
@@ -1730,7 +1730,7 @@ export const restaurantList = [
     {
         "info": {
             "id": "762328",
-            "name": "Yummo Ice Saif Khan",
+            "name": "Yummo Ice Creams",
             "cloudinaryImageId": "8a89cc36168fb9974b37aaf5a5f6be2e",
             "locality": "Ghari Shahdara",
             "areaName": "Sector 135",
@@ -1827,7 +1827,7 @@ export const restaurantList = [
     {
         "info": {
             "id": "323600",
-            "name": "Dana Saif Khan",
+            "name": "Dana Choga",
             "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/10/c781f9cc-ef21-47f6-8d13-0aabbb7429ac_323600.jpg",
             "locality": "Golf Course",
             "areaName": "Sector 41",
@@ -1914,6 +1914,7 @@ export const restaurantList = [
     }
 ]
 
+
 export const IMG_CDN_BASE_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
 
-export const RESTAURANT_API_URL = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.2856374&lng=72.8691092&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
+export const RESTAURANT_API_URL = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.2856374&lng=72.8691092&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
