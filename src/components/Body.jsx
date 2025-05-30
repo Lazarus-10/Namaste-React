@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
-import { RESTAURANT_API_URL } from "../constants";
-import RestaurantCard from "./RestaurantCard";
-import Shimmer from "./Shimmer";
+import { RESTAURANT_API_URL } from "../utils/constants.js";
+import RestaurantCard from "./RestaurantCard.jsx";
+import Shimmer from "./Shimmer.jsx";
 import ErrorPage from "./ErrorPage.jsx";
+import { Link } from "react-router-dom";
 
 const Body = () => {
 	const [searchText, setSearchInput] = useState(""); //To create a state variable
@@ -54,7 +55,7 @@ const Body = () => {
 				<input
 					type="text"
 					className="search-input"
-					placeholder="Search"
+					placeholder="Search Restaurants..."
 					value={searchText}
 					onChange={(e) => {
 						setSearchInput(e.target.value);
@@ -83,10 +84,9 @@ const Body = () => {
 					filteredRestaurants?.map((restaurant) => {
 						const info = restaurant?.info;
 						return (
-							<RestaurantCard
-								key={info.id}
-								{...info}
-							/>
+							<Link to={"/restaurant/" + info.id} key={info.id}>
+								<RestaurantCard {...info} />
+							</Link>
 						);
 					})
 				)};
