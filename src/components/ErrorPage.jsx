@@ -3,7 +3,7 @@ import { useNavigate, useRouteError } from "react-router-dom";
 import coffeeImage from "url:../assets/img/coffee.png";//for parcel 2 use "url:"
 // const coffeeImage = new URL('../assets/img/coffee.png', import.meta.url).href;
 
-const ErrorPage = ({ onRetry }) => {
+const ErrorPage = () => {
   const err = useRouteError();
   console.log(err);
   
@@ -12,12 +12,16 @@ const ErrorPage = ({ onRetry }) => {
     // if we are already on the "/" and error occured clicking on home button will 
     // not work as react will not remount or re-render as it thinks we are already there
     // ! hacky Way
-    navigate("/temp", { replace: true }); // go to a dummy page(hack)
-    setTimeout(() => navigate("/"), 0);   // and immediately go back
+    // navigate("/temp", { replace: true }); // go to a dummy page(hack)
+    // setTimeout(() => navigate("/"), 0);   // and immediately go back
 
     // ? Force Reload
-    // window.location.href = "/"; (reloads the actual page)
-  };  
+    window.location.href = "/"; // (reloads the actual page)
+  }; 
+  
+  const handleRetry = () => {
+    window.location.reload();
+  };
 
   return (
     <div style={styles.container}>
@@ -32,11 +36,11 @@ const ErrorPage = ({ onRetry }) => {
         {err?.status + " : " + err?.statusText}
       </p>
       <div style={styles.buttonGroup}>
-        <button style={styles.button} onClick={onRetry}>
-          Retry
-        </button>
-        <button style={styles.secondaryButton} onClick={handleHomeClick}>
+        <button style={styles.button} onClick={handleHomeClick}>
           Home
+        </button>
+        <button style={styles.secondaryButton} onClick={handleRetry}>
+          Retry
         </button>
       </div>
     </div>
@@ -45,7 +49,7 @@ const ErrorPage = ({ onRetry }) => {
 
 const styles = {
   container: {
-    height: "100vh",
+    height: "80vh",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
@@ -56,8 +60,7 @@ const styles = {
     fontFamily: "'Poppins', sans-serif",
   },
   image: {
-    width: "140px",
-    marginBottom: "20px",
+    width: "10rem",
   },
   title: {
     fontSize: "28px",

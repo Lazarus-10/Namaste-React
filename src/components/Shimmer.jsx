@@ -37,28 +37,4 @@ const MyShimmer = () => {
 }
 
 
-// const ShimmerCard = () => (
-//   <div className="card" style={{ width: 200 }}>
-//     <Shimmer width={200} height={150} />       {/* Image Placeholder */}
-//     <div style={{ marginTop: 10 }}>
-//       <Shimmer width={120} height={12} />      {/* Title line */}
-//       <Shimmer width={180} height={10} style={{ marginTop: 6 }} />
-//       <Shimmer width={140} height={10} style={{ marginTop: 6 }} />
-//     </div>
-//   </div>
-// );
-
-
-// const MyShimmer = () => {
-// 	return <div className="restaurant-list"> 
-// 			{Array(20)
-// 				.fill("")
-// 				.map((_, indx) => (
-// 					<ShimmerCard key={indx} />
-// 				))
-// 			}
-// 	</div>
-// }
-
-
 export default MyShimmer;

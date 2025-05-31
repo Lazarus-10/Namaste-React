@@ -1,38 +1,18 @@
-import { useEffect, useState } from "react";
-import { json, useParams } from "react-router-dom"
-import { MENU_API_URL } from "../utils/constants";
+import { useParams } from "react-router-dom"
 import ErrorPage from "./ErrorPage";
 import { IMG_CDN_BASE_URL } from "../utils/constants";
 import MyShimmer from "./Shimmer";
+import useRestaurantMenu from "../utils/useRestaurantMenu";
 
 const RestaurantMenu = () => {
    var param = useParams();
-   const [hasError, setHasError] = useState(false);
-   const [resInfo, setResInfo] = useState(null);
 
-   useEffect(()=>{   
-      fetchRestaurantMenu();
-   }, []);
-
-   async function fetchRestaurantMenu(){
-      try{
-         const restaurantData = await fetch(MENU_API_URL + param?.id);
-         if (!restaurantData.ok) {
-				throw new Error(`HTTP error! Status: ${data.status}`);
-			}
-         const jsonResData = await restaurantData.json();
-         setResInfo(jsonResData.data);
-         setHasError(false);
-      }catch(error){
-         console.log("Failed to fetch menu: " + error);
-         setHasError(true);
-      }
-   }
+   const [resInfo, hasError] = useRestaurantMenu(param?.id);
 
    if(hasError){
-		return <ErrorPage onRetry={fetchRestaurantMenu} />;
+		return <ErrorPage />;
 	}
-   
+
    const {
       name = "Unknown Restaurant",
       cuisines = [],

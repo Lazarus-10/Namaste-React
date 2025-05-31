@@ -4,36 +4,23 @@ import RestaurantCard from "./RestaurantCard.jsx";
 import Shimmer from "./Shimmer.jsx";
 import ErrorPage from "./ErrorPage.jsx";
 import { Link } from "react-router-dom";
+import useOnlineStatus from "../utils/useOnlineStatus.js";
+import NoInternetPage from "./NoInternetPage.jsx";
+import NoResults from "./NoResults.jsx";
+import useRestaurantList from "../utils/useRestaurantList.js";
 
 const Body = () => {
 	const [searchText, setSearchInput] = useState(""); //To create a state variable
-	const [filteredRestaurants, setFilteredRestaurants] = useState([]);
-	const [listOfRestaurants, setListOfRestaurants] = useState([]);
-	const [hasError, setHasError] = useState(false);
+
+	const [
+		listOfRestaurants, 
+		filteredRestaurants,
+		setFilteredRestaurants,
+		hasError
+	] = useRestaurantList();
 	
-	useEffect(() => {
-		getRestaurants();
-	}, []);
-
-	async function getRestaurants() {
-		try {
-			const data = await fetch(RESTAURANT_API_URL);
-
-			if (!data.ok) {
-				throw new Error(`HTTP error! Status: ${data.status}`);
-			}
-
-			const json = await data.json();
-			const restaurants =
-				json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
-					?.restaurants;
-			setListOfRestaurants(restaurants);
-			setFilteredRestaurants(restaurants);
-			setHasError(false); // <----- Reset error state here
-		} catch (error) {
-			console.log("Failed to fetch restaurants:", error);
-			setHasError(true);
-		}
+	if (hasError) {
+		return <ErrorPage />;
 	}
 
 	const handleSearch = (e) => {
@@ -43,13 +30,9 @@ const Body = () => {
 		setFilteredRestaurants(searchedRestaurant);
 	};
 
-	if(hasError){
-		return <ErrorPage onRetry={getRestaurants} />;
-	}
-
-	return listOfRestaurants.length === 0 ? ( 
-			<Shimmer />
-		) : (
+	return listOfRestaurants?.length === 0 ? (
+		<Shimmer />
+	) : (
 		<>
 			<div className="search-container">
 				<input
@@ -77,20 +60,22 @@ const Body = () => {
 					Search
 				</button>
 			</div>
-			<div className="restaurant-list">
-				{ filteredRestaurants?.length === 0 ? (
-					<h1>No restaurant found with the name "{searchText}"</h1>
-				) : (
-					filteredRestaurants?.map((restaurant) => {
+			{filteredRestaurants?.length === 0 ? (
+				<NoResults searchText={searchText} />
+			) : (
+				<div className="restaurant-list">
+					{filteredRestaurants?.map((restaurant) => {
 						const info = restaurant?.info;
 						return (
-							<Link to={"/restaurant/" + info.id} key={info.id}>
+							<Link 
+								to = {"/restaurant/" + info?.id}
+								key={info?.id}>
 								<RestaurantCard {...info} />
 							</Link>
 						);
-					})
-				)};
-			</div>
+					})}
+				</div>
+			)}
 		</>
 	);
 };
