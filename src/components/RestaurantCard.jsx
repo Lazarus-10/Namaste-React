@@ -5,7 +5,7 @@ const RestaurantCard = ({ resData }) => {
 		resData?.info;
 	return (
 		<>
-			<div className="bg-white rounded-xl shadow-md overflow-hidden w-72 cursor-pointer flex flex-col group">
+			<div className="bg-white rounded-xl shadow-md overflow-hidden max-w-full cursor-pointer flex flex-col group">
         <div className="relative">
           <img
             className="w-full h-48 object-cover border-b border-gray-200"

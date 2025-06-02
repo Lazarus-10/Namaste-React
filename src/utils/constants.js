@@ -1916,7 +1916,7 @@ export const restaurantList = [
 
 export const IMG_CDN_BASE_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
 
-export const RESTAURANT_API_URL = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.4956852&lng=77.4074461&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
+export const RESTAURANT_API_URL = "https://thingproxy.freeboard.io/fetch/https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.4956852&lng=77.4074461&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
 
 export const MENU_API_URL =
-  "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=28.4956852&lng=77.4074461&restaurantId=";
+  "https://thingproxy.freeboard.io/fetch/https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=28.4956852&lng=77.4074461&restaurantId=";

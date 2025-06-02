@@ -102,7 +102,7 @@ const appRouter = createBrowserRouter([
 				)
 			}
 		],
-		errorElement: <ErrorPage /> // Error boundary for this route and its children
+		errorElement: <ErrorPage value={true}/> // Error boundary for this route and its children
 		// /about, /about/xyz all are children of /, if not explicitly scoped otherwise
 		//so any path that is not valid will show <ErrorPage />
 	}

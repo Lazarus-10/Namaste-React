@@ -1,45 +1,44 @@
-import React from "react";
 import { useNavigate, useRouteError } from "react-router-dom";
-import coffeeImage from "url:../assets/img/coffee.png";//for parcel 2 use "url:"
-// const coffeeImage = new URL('../assets/img/coffee.png', import.meta.url).href;
+import coffeeImage from "url:../assets/img/coffee.png";
 
-const ErrorPage = () => {
+const ErrorPage = ({value}) => {
   const err = useRouteError();
-  console.log(err);
-  
   const navigate = useNavigate();
-  const handleHomeClick = () => {
-    // if we are already on the "/" and error occured clicking on home button will 
-    // not work as react will not remount or re-render as it thinks we are already there
-    // ! hacky Way
-    // navigate("/temp", { replace: true }); // go to a dummy page(hack)
-    // setTimeout(() => navigate("/"), 0);   // and immediately go back
 
-    // ? Force Reload
-    window.location.href = "/"; // (reloads the actual page)
-  }; 
-  
+  const handleHomeClick = () => {
+    window.location.href = "/";
+  };
+
   const handleRetry = () => {
     window.location.reload();
   };
-
+  const height = value ? "100vh" : "80vh";
   return (
-    <div style={styles.container}>
+    <div className="flex flex-col items-center justify-center bg-[#fff8f0] px-5 text-center font-[Poppins]"
+         style={{height}}
+      >
+     {/* <div className={`h-[${height}] flex flex-col items-center justify-center bg-[#fff8f0] px-5 text-center font-[Poppins]`}> */}
       <img
-        src={coffeeImage} // broken pizza slice icon
-        alt="Oops! Broken Pizza"
-        style={styles.image}
+        src={coffeeImage}
+        alt="Oops! Spilled Coffee"
+        className="w-40"
       />
-      <h1 style={styles.title}>Oops! Our kitchen hit a snag.</h1>
-      <p style={styles.message}>
-        We’re having trouble serving your tasty order. Please try again!<br/>
+      <h1 className="text-[28px] text-[#f76c1b] mb-2">Oops! Our kitchen hit a snag.</h1>
+      <p className="text-[16px] text-[#555] mb-8 max-w-[320px]">
+        We’re having trouble serving your tasty order. Please try again!<br />
         {err?.status + " : " + err?.statusText}
       </p>
-      <div style={styles.buttonGroup}>
-        <button style={styles.button} onClick={handleHomeClick}>
+      <div className="flex gap-3">
+        <button
+          onClick={handleHomeClick}
+          className="bg-[#f76c1b] text-white text-[16px] px-6 py-3 rounded-md shadow-lg shadow-[#f76c1b66] transition-colors duration-300 hover:bg-[#e55c0a]"
+        >
           Home
         </button>
-        <button style={styles.secondaryButton} onClick={handleRetry}>
+        <button
+          onClick={handleRetry}
+          className="bg-white text-[#f76c1b] border-2 border-[#f76c1b] text-[16px] px-6 py-3 rounded-md shadow-lg shadow-[#f76c1b33] hover:bg-[#fff3e6] transition-colors duration-300"
+        >
           Retry
         </button>
       </div>
@@ -47,58 +46,4 @@ const ErrorPage = () => {
   );
 };
 
-const styles = {
-  container: {
-    height: "80vh",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#fff8f0", 
-    padding: "20px",
-    textAlign: "center",
-    fontFamily: "'Poppins', sans-serif",
-  },
-  image: {
-    width: "10rem",
-  },
-  title: {
-    fontSize: "28px",
-    color: "#f76c1b",
-    marginBottom: "10px",
-  },
-  message: {
-    fontSize: "16px",
-    color: "#555",
-    marginBottom: "30px",
-    maxWidth: "320px",
-  },
-  buttonGroup: {
-    display: "flex",
-    gap: "10px",
-  },
-  button: {
-    backgroundColor: "#f76c1b",
-    color: "white",
-    border: "none",
-    borderRadius: "6px",
-    padding: "12px 24px",
-    fontSize: "16px",
-    cursor: "pointer",
-    boxShadow: "0 5px 15px rgba(247, 108, 27, 0.4)",
-    transition: "background-color 0.3s ease",
-  },
-  secondaryButton: {
-    backgroundColor: "#ffffff",
-    color: "#f76c1b",
-    border: "2px solid #f76c1b",
-    borderRadius: "6px",
-    padding: "12px 24px",
-    fontSize: "16px",
-    cursor: "pointer",
-    boxShadow: "0 5px 15px rgba(247, 108, 27, 0.2)",
-    transition: "background-color 0.3s ease",
-  },
-};
-
-export default ErrorPage; 
+export default ErrorPage;

@@ -1,46 +1,20 @@
 import noResultImage from "url:../assets/img/search.png";
+
 const NoResults = ({ searchText }) => {
   return (
-    <div style={styles.container}>
+    <div className="flex flex-col items-center justify-center px-5 py-10 text-center font-[Poppins]">
       <img
-        src= {noResultImage}
+        src={noResultImage}
         alt="No results"
-        style={styles.image}
+        className="w-24 opacity-80"
       />
-      <h2 style={styles.title}>No restaurants found</h2>
-      <p style={styles.message}>
+      <h2 className="text-[22px] text-[#f76c1b] mb-2">No restaurants found</h2>
+      <p className="text-[16px] text-[#555] max-w-[320px]">
         We couldn’t find anything matching <strong>"{searchText}"</strong>.<br />
         Try searching with a different name.
       </p>
     </div>
   );
-};
-
-//object of objects
-const styles = {
-  container: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "center",
-    padding: "40px 20px",
-    textAlign: "center",
-    fontFamily: "'Poppins', sans-serif",
-  },
-  image: {
-    width: "6rem",
-    opacity: 0.8,
-  },
-  title: {
-    fontSize: "22px",
-    color: "#f76c1b",
-    marginBottom: "10px",
-  },
-  message: {
-    fontSize: "16px",
-    color: "#555",
-    maxWidth: "320px",
-  },
 };
 
 export default NoResults;
