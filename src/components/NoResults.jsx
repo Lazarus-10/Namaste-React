@@ -1,10 +1,9 @@
-import React from "react";
-
+import noResultImage from "url:../assets/img/search.png";
 const NoResults = ({ searchText }) => {
   return (
     <div style={styles.container}>
       <img
-        src="https://cdn-icons-png.flaticon.com/512/7486/7486823.png" // Optional: change to a custom 'empty search' image
+        src= {noResultImage}
         alt="No results"
         style={styles.image}
       />
@@ -17,6 +16,7 @@ const NoResults = ({ searchText }) => {
   );
 };
 
+//object of objects
 const styles = {
   container: {
     display: "flex",
@@ -28,8 +28,7 @@ const styles = {
     fontFamily: "'Poppins', sans-serif",
   },
   image: {
-    width: "120px",
-    marginBottom: "20px",
+    width: "6rem",
     opacity: 0.8,
   },
   title: {

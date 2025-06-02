@@ -37,11 +37,11 @@ const RestaurantMenu = () => {
    // if (resInfo === null) return <ShimmerMenu />;
 
    return (!resInfo) ? <MyShimmer /> : (
-      <div className="menu">
+      <div className="flex justify-around flex-wrap">
          <div>
             <h1>Restaurant id: {param.id}</h1>
             <h2>{name}</h2>
-            <img src={IMG_CDN_BASE_URL + cloudinaryImageId} alt="Restaurant Image" />
+            <img className="w-full h-80 object-cover rounded" src={IMG_CDN_BASE_URL + cloudinaryImageId} alt="Restaurant Image" />
             <h3>avgRating: {avgRating}</h3>
          </div>
          <div>

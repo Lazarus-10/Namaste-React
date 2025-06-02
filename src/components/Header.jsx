@@ -12,7 +12,7 @@ const loggedInUser = () => {
 export const Title = () => (
 	<a href="/">
 		<img
-			className="logo"
+			className="w-20"
 			alt="Logo"
 			// src="https://shorturl.at/QQD8z"
 			src={Logo}
@@ -24,21 +24,31 @@ const Header = () => {
 	const [isLoggedIn, setIsLoggedIn] = useState(false);
 
 	return (
-		<div className="header">
+		<div className="flex justify-between items-center px-6 py-4 mb-6 bg-[#f8f9fa] shadow-lg rounded-b">
 			<Title />
 			<div className="nav-items">
-				<ul>
-					<Link to="/"> <li>Home</li> </Link>
-					<Link to="/about"> <li>About</li> </Link>
-					<Link to="/contact"> <li>Contact</li> </Link>
-					<Link to="/cart"> <li>Cart</li> </Link>
-					<Link to="/instamart">Instamart</Link>
+				<ul className="list-none flex flex-wrap gap-6 text-base text-[#333] transition-colors duration-500 ease-in-out">
+					<li className="hover:text-blue-600 cursor-pointer"> <Link to="/"> Home </Link> </li>
+					<li className="hover:text-blue-600 cursor-pointer"> <Link to="/about"> About </Link> </li>
+					<li className="hover:text-blue-600 cursor-pointer"> <Link to="/contact"> Contact </Link> </li>
+					<li className="hover:text-blue-600 cursor-pointer"> <Link to="/cart"> Cart </Link> </li>
+					<li className="hover:text-blue-600 cursor-pointer"> <Link to="/instamart">Instamart</Link> </li>
 				</ul>
 			</div>
 			{isLoggedIn ? (
-				<button onClick={() => setIsLoggedIn(false)}>Logout</button>
+				<button 
+				onClick={() => setIsLoggedIn(false)}
+				className="px-4 py-2 bg-blue-500 text-white font-medium rounded-lg cursor-pointer transition-colors duration-300 hover:bg-blue-700"
+				>
+					Logout
+				</button>
 			): (
-				<button onClick={() => setIsLoggedIn(true)}>Login</button>
+				<button 
+				onClick={() => setIsLoggedIn(true)}
+				className="px-4 py-2 bg-blue-500 text-white font-medium rounded-lg cursor-pointer transition-colors duration-300 hover:bg-blue-700"
+				>
+					&nbsp;Login&nbsp;
+				</button>
 			)}
 		</div>
 	);
